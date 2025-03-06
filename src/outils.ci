@@ -1,0 +1,10 @@
+unsigned int puissance2(unsigned int x) {
+  unsigned int p = 1;
+
+  while (p < x) {
+    //p *= 2;
+    p = p << 1;
+  }
+  
+  return p; 
+}

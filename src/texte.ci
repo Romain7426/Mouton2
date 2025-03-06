@@ -1,0 +1,54 @@
+char * strallouer(unsigned int taille) {
+  char * alpha; 
+
+  alpha = (char *) malloc((sizeof (char)) * (taille + 1));
+  
+  if (taille > 0) 
+    alpha[0] = '\0'; 
+
+  return alpha; 
+}
+
+void strfree(char * str) {
+  free(str);
+}
+
+void chaine_free(char * str) {
+  strfree(str);
+}
+
+void str_free(char * str) {
+  strfree(str);
+}
+
+
+char * strlower(const char * str) {
+  return strmap(tolower, str);
+}
+
+char * strupper(const char * str) {
+  return strmap(toupper, str);
+}
+
+
+bool strequal(const char * str1, const char * str2) {
+  return (strcmp(str1, str2) == 0);
+}
+
+bool striequal(const char * str1, const char * str2) {
+  register bool b;
+  char * tmp1;
+  char * tmp2;
+  tmp1 = strlower(str1);
+  tmp2 = strlower(str2);
+  b = strequal(tmp1, tmp2);
+  strfree(tmp1);
+  strfree(tmp2);
+  return b;
+}
+
+const char * str_of_boolean(bool b) {
+  return str_of_bool(b);
+}
+
+
