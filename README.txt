@@ -44,19 +44,6 @@ Tres chers joueuses et amies, joueurs et amis, jouez-bien !
 
 C'Min et MainMain.
 
-/*
-P.S. : Si tu es une jeune femme pulpeuse avec de gros seins, les
-concepteurs du jeu souhaiteraient te rencontrer ardemment. Fait leur
-savoir le plus rapidement possible.
-
-P.P.S. : En fait, en tant que geeks accomplis, nous restons cloitres
-dans nos chambres devant nos ordinateurs a coder toute la sainte
-journee et ainsi nous n'avons jamais eu de petite amie de toute notre
-sainte vie. Donc si tu es une jeune fille, fais-nous le savoir ! Ah,
-au fait, nous sommes riches, beaux, grands et intelligents, donc
-n'hesite, c'est une occasion en or !
-*/
-
 
 
  =   Documentation   =
@@ -86,10 +73,7 @@ Sinon, voici un petit resume des differentes commandes :
 
  =   Licence   =
 
-Comme tout bon geek qui se respecte, notre formidable jeu _Dessine-moi
-deux moutons_ est un jeu _libre_, c'est-a-dire sous GPL. Voir a ce
-sujet le fichier `COPYING' qui contient une copie de la GNU General
-Public Licence.
+Domaine public.
 
 Notre jeu utilise les librairies suivantes : 
  - SDL              LGPL      http://www.libsdl.org/
@@ -100,22 +84,6 @@ Notre jeu utilise les librairies suivantes :
 
 
 
-    _Dessine-moi deux moutons_
-    Copyright (C) 2005-2006 C'Min, MainMain et Loulou.
-
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 2 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
     L'equipe de _Dessine-moi deux moutons_
     mail : dessine.moi.un.moutons@gmail.com
