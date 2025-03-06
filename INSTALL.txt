@@ -1,0 +1,122 @@
+
+Ce fichier decrit deux choses : 
+ - comment se passe l'installation du programme;
+ - comment compiler le programme.
+
+web : http://dessine.moi.mouton.free.fr./index.html
+mail : dessine.moi.un.mouton@gmail.com
+
+
+INSTALLATION
+
+Ce programme a ete teste et developpe sous les systemes Windows XP et
+Mac OS X. Nous indiquons donc ici la marche a suivre pour installer
+le programme sous ces deux systemes.
+
+
+_Windows XP_
+
+ Une fois le programme telecharger, il suffit 
+ de le decompresser puis d'ouvrir le repertoire
+ du programme et enfin de double-cliquer sur 
+ `mouton2.exe'.
+
+
+_Mac OS X_
+
+ Une fois le programme telecharger, il faut
+ de le decompresser puis ouvrir un terminal (argh !)
+ se positionner sur le repertoire du programme
+ et enfin taper `./mouton2.exe'.
+
+
+_Unix, GNU/Linux, et autres_
+
+ Chers utilisateurs, j'espere que vous etes
+ experimentes et que vous etes d'accord sur
+ le fait que vous soyez un `geek', parce
+ qu'il va falloir que vous recompiliez
+ le jeu. Si vous n'avez rien compris, va
+ falloir que vous appeliez votre pote a
+ lunettes informaticien, en esperant qu'il
+ ne joue pas a WoW en ce moment...
+
+
+COMPILATION
+
+Ce programme a ete teste et developpe sous les systemes Windows XP et
+Mac OS X. Nous indiquons donc ici la marche a suivre pour recompiler
+le programme sous ces deux systemes.
+
+
+_Windows XP_
+
+ Telecharger et installer le logiciel Dev-C++.
+ Puis installer avec le gestionnaire de paquet
+ les bibliotheques SDL, SDL_image et SDL_mixer.
+ Ouvrir le fichier `mouton2.dev' avec Dev-Cpp 
+ et faire `recompiler'.
+
+
+_Mac OS X_
+ 
+ Il faut au prealable avoir installe les logiciels
+ de developpement. Ils se trouvent generalement 
+ sur un des CD d'installation de Mac OS X dans 
+ un dossier cache.
+ Une fois `gcc' et `make' installe, il faut 
+ installer les librairies SDL, SDL_image et 
+ SDL_mixer. Pour cela, soit on les installe 
+ directement depuis les sources, soit en 
+ utilisant le gestionnaire de paquets installe
+ sur le systeme (fink, darwin ports).
+ Cela fait, il suffit d'ouvrir un terminal
+ (Applications -> Utilitaires -> terminal)
+ puis de se positionner dans le repertoire 
+ du programme. La, on tape `'make'.
+
+
+_Unix, GNU/Linux, et autres_
+
+ Le programme n'a pas ete teste et compile 
+ sous ces systemes. Il va falloir s'inspirer 
+ des makefiles presents (`Makefile' et 
+ `unix.mkf').
+ Pour que le programme marche, il est 
+ necessaire d'installer auparavant les
+ librairies SDL, SDL_image, SDL_mixer et
+ une version de FFmpeg qui marche avec le jeu.
+
+
+
+References : 
+ * SDL         :  LGPL    http://www.libsdl.org/
+ * SDL_image   :  LGPL    http://www.libsdl.org/projects/SDL_image/
+ * SDL_mixer   :  LGPL    http://www.libsdl.org/projects/SDL_mixer/
+ * Dev-Cpp     :   GPL    http://www.bloodshed.net/devcpp.html
+ * fink        :          http://fink.sourceforge.net/index.php?phpLang=fr
+ * DarwinPorts :          http://darwinports.opendarwin.org/fr/
+ * FFmpeg      :  LGPL (ou GPL avec certaines options)   http://ffmpeg.sourceforge.net/index.php
+
+
+
+    _Dessine-moi deux moutons_
+    Copyright (C) 2005-2006 C'Min, MainMain et Loulou.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    L'equipe de _Dessine-moi deux moutons_
+    mail : dessine.moi.un.moutons@gmail.com
+    web : http://dessine.moi.mouton.free.fr./index.html
