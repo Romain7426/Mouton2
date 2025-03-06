@@ -125,8 +125,8 @@
 #include <string.h> 
 //#include <tgmath.h> // includes the headers <math.h>and<complex.h> --- 
 #include <time.h> // clock & time --- 
-#include <wchar.h> 
-#include <wctype.h> 
+//#include <wchar.h> 
+//#include <wctype.h> 
 #include <ctype.h> // tolower toupper
 
 #include <locale.h>
